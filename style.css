@@ -1,7 +1,10 @@
 @import url(http://fonts.googleapis.com/css?family=Raleway+Dots);
 
+html, body{
+  height: 100%;
+}
+
 body {
-  height: 700px;
   margin: 0;
   padding: 0;
 }
