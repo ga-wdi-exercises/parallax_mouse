@@ -2,6 +2,8 @@
 
 Warmup to practice manipulating the DOM & Events with jQuery. You should use jQuery for all of the following.
 
+#### [End Result should look like this](http://ga-wdi-exercises.github.io/parallax_mouse/)
+
 ### Commit 1
 
 When the mouse moves within the body, console.log the x and y coordinates. [The docs on mousemove](http://api.jquery.com/mousemove/) may be helpful here.
