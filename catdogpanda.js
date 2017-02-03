@@ -22,10 +22,8 @@ $('body').mousemove(function(event) {
 });
 
 // #4 Have it so that when you click on any image, it either adds or removes the ".border" class
-
-// $("img").mousemove(function(event)) {
-//   var cssChange = "("margin-top", "margin-left", "event.pageX", "event.pageY")"
-//   console.log(cssChange)
-// }
+$('img').click(function() {
+  $(this).toggleClass('border')
+})
 
 })
