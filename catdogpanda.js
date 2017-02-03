@@ -38,5 +38,13 @@ $("body").on("mousemove", function() {
   });
 });
 
-
+$(".dog").on("click", function(){
+  $(".dog").toggleClass('border')
+})
+$(".cat").on("click", function(){
+  $(".cat").toggleClass('border')
+})
+$(".panda").on("click", function(){
+  $(".panda").toggleClass('border')
+})
 //
