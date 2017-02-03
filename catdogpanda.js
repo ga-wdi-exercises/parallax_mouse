@@ -86,8 +86,7 @@ $("body").mousemove(function(event) {
 });
 
 $("img").on("click", function(event){
-  // bonus two!
-  event.stopPropagation();
+  /*bonus two!*/ event.stopPropagation();
   $(this).toggleClass('border')
 })
 
