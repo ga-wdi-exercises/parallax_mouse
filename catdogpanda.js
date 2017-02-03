@@ -6,7 +6,8 @@ $(document).ready(function() {
       // var pos = $("body").position();
       var page = event.pageX + ", " + event.pageY;
       // console.log(event.pageX + ", " + event.pageY);
-      $("h1").text(event.pageX + ", " + event.pageY); 
+        $("h1").text(event.pageX + ", " + event.pageY); 
+
 
   });
 
