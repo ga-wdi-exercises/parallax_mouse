@@ -6,7 +6,14 @@ $(document).ready(function() {
       // var pos = $("body").position();
       var page = event.pageX + ", " + event.pageY;
       // console.log(event.pageX + ", " + event.pageY);
-        $("h1").text(event.pageX + ", " + event.pageY); 
+        $("h1").text(event.pageX + ", " + event.pageY);
+
+        $("img.cat").css("margin-left", event.pageX/6).css("margin-top", event.pageY/6);
+        $("img.dog").css("margin-left", event.pageX/12).css("margin-top", event.pageY/12);
+        $("img.panda").css("margin-left", event.pageX/20).css("margin-top", event.pageY/20);
+
+
+
 
 
   });
