@@ -1,7 +1,7 @@
 $ ('body').mousemove(function(event){
   var pageCoords = (event.pageX + "," + event.pageY);
   $ ('h1').text("Coordinates: " + pageCoords);
-  })
+});
 
 $('body').mousemove(function(event) {
   $(".cat").css("margin-left", event.pageX/ 6).css("margin-top", event.pageY/ 3);
@@ -15,14 +15,10 @@ $('body').mousemove(function(event) {
   $(".panda").css("margin-left", event.pageX/ 15).css("margin-top", event.pageY/ 15);
 });
 
-$('.cat').click(function() {
+$('img').click(function() {
    $(this).toggleClass('border');
 });
 
-$('.dog').click(function() {
-   $(this).toggleClass('border');
-});
-
-$('.panda').click(function() {
-   $(this).toggleClass('border');
+$('body').click(function(){
+  $(this).off();
 });
