@@ -34,8 +34,10 @@ var marginTop = $("img").css("margin-top")
 
 
 
-
-
-
 //Commit 4
 //Have it so that when you click on any image, it either adds or removes the ".border" class
+
+
+marginLeft = $("img.border").css("margin-left")
+marginTop = $("img.border").css("margin-top")
+  console.log(marginTop, marginLeft);
