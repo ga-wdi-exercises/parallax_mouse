@@ -68,13 +68,9 @@ $("body").mousemove(function() {
   msg += `${event.pageX}, ${event.pageY}`;
   $("h1").text( "Coordinates: " + msg);
   $(".cat").css({
-    "margin-top": event.pageY * 0.15,
-    "margin-left": event.pageX * 0.15
-  });
+    "margin-top": event.pageY * 0.15, "margin-left": event.pageX * 0.15});
   $(".dog, .panda").css({
-    "margin-top": event.pageY * 0.05,
-    "margin-left": event.pageX * 0.05
-  });
+    "margin-top": event.pageY * 0.05, "margin-left": event.pageX * 0.05});
 });
 $("img").on("click", function(){
   /*bonus two!*/ event.stopPropagation();
