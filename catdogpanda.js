@@ -66,6 +66,9 @@ $(document).ready(function(){
 
   changeImg.click(function(){
    $(this).addClass("border");
+  // changeImg.click(function(){
+  //   $(this).off("border")
+  })
   })
   // changeImg.mouseenter(function(evt){
   //   evt.preventDefault()
