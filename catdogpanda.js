@@ -81,7 +81,9 @@ $("img").on("click", function(){
   $(this).toggleClass('border')
 })
 //  bonus one!
-$("body").on("click", function(){
-  $(this).off()
-})
+// $("body").on("click", function(){
+//   $(this).off()
+// })
+// refactored bonus one!
+$("body").click(function(){$(this).off()})
 //this is the end
