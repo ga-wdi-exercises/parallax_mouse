@@ -15,11 +15,14 @@ $('body').mousemove(function(event) {
   $(".panda").css("margin-left", event.pageX/ 15).css("margin-top", event.pageY/ 15);
 });
 
+$('.cat').click(function() {
+   $(this).toggleClass('border');
+});
 
+$('.dog').click(function() {
+   $(this).toggleClass('border');
+});
 
-
-// $(".cat").mouseover(function(){
-//   'margin-left': function(){
-//     return parsefloat(pageCoords);
-//   }
-// })
+$('.panda').click(function() {
+   $(this).toggleClass('border');
+});
