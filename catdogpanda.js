@@ -1,4 +1,4 @@
 $ ('body').mousemove(function(event){
-  var pageCoords = (event.pageX, event.pageY);
-  console.log("coordinates for the page is " + pageCoords);
+  var pageCoords = (event.pageX + "," + event.pageY);
+  $ ('h1').text(pageCoords);
 })
