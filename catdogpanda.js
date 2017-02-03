@@ -18,3 +18,15 @@ $("body").mousemove(function(event){
     $(".dog").css("margin-left", dogXCoord).css("margin-top", dogYCoord);
     $(".panda").css("margin-left", pandaXCoord).css("margin-top", pandaYCoord);
     })
+
+var clickCounter = 0;
+
+$("img").click(function(event){
+  clickCounter++;
+  if(clickCounter % 2 == 1){
+  $(this).addClass("border");
+
+} else {
+  $(this).removeClass("border");
+}
+});
