@@ -12,29 +12,13 @@ $(document).ready(function() {
         $("img.dog").css("margin-left", event.pageX/12).css("margin-top", event.pageY/12);
         $("img.panda").css("margin-left", event.pageX/20).css("margin-top", event.pageY/20);
 
+  });
 
-
+  $("img").click( function(){
+    // $(this).css("border-color", "blue").clickOn(1).clickOff(2);
+    $(this).toggleClass("border");
 
 
   });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 });
