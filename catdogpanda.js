@@ -18,6 +18,6 @@ $('img.dog').click(function(event) {
     $('img.dog').toggleClass('border')
 })
 $('img.panda').click(function(event) {
-    $('img.panda').css('margin-top', event.pageY / 20).css('margin-left', event.pageX / 20).css('border-color', 'blue').css('border-style', 'dotted')
+  $('img.panda').toggleClass('border')
 })
 ;
