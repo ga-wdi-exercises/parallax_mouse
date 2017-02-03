@@ -21,4 +21,8 @@ $(document).ready(function() {
 
   });
 
+    $("body").click( function(){
+      $("body").stop();
+  });
+
 });
