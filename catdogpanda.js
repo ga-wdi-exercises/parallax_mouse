@@ -85,5 +85,7 @@ $("img").on("click", function(){
 //   $(this).off()
 // })
 // refactored bonus one!
-$("body").click(function(){$(this).off()})
+$("body").click(function(){
+  $(this).off()
+})
 //this is the end
