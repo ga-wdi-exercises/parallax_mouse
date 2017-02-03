@@ -94,9 +94,3 @@ $("img").on("click", function(event){
 $("body").on("click", function(){
   $("body").off()
 })
-
-
-
-
-
-//
