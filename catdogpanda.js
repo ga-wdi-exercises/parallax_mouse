@@ -18,15 +18,21 @@
 //commit 2
 //Instead of using console.log, replace the text of the h1 with the current coordinates of the mouse.
 
-$('body').mousemove(function(event){
+/*$('body').mousemove(function(event){
   $('#coords').text(event.pageX + ', ' + event.pageY);
   console.log(event.pageX, event.pageY);
+  */
 
-})
 
 
 //Commit 3
 //When the mouse moves, change the css of each of your images so that the margin-left and margin-top change along with the x and y coordinates of your mouse. Read the docs on css. Try dividing the x and y coordinates by a factor (anywhere from 6 - 20) before setting your margin, and make this factor different for each image.
+
+
+
+
+
+
 
 //Commit 4
 //Have it so that when you click on any image, it either adds or removes the ".border" class
