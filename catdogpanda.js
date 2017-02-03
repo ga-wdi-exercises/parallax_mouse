@@ -67,20 +67,20 @@ $("body").mousemove(function(event) {
   var msg = "";
   msg += event.pageX + ", " + event.pageY;
   $("h1").text( "Coordinates: " + msg);
-  $(".cat, .dog").css({
+  $(".cat").css({
     "margin-top": function(mousemove) {
-      return parseFloat(event.pageY) * 0.1;
+      return event.pageY * 0.15;
     },
     "margin-left": function(mousemove) {
-      return parseFloat(event.pageX) * 0.1;
+      return event.pageX * 0.15;
     }
   });
-  $(".panda").css({
+  $(".dog, .panda").css({
     "margin-top": function(mousemove) {
-      return parseFloat(event.pageY) * 0.05;
+      return event.pageY * 0.05;
     },
     "margin-left": function(mousemove) {
-      return parseFloat(event.pageX) * 0.05;
+      return event.pageX * 0.05;
     }
   });
 });
