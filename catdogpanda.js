@@ -16,6 +16,9 @@ $('body').mousemove(function(event) {
   $(".panda").css("margin-left", event.pageX/ 10).css("margin-top", event.pageY/ 12);
 });
 
+$('img').on('click', function() {
+$(this).toggleClass('border');
+  })
 
 });
 
