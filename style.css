@@ -25,7 +25,7 @@ img{
   border: 5px solid black;
   transition-property: border;
   transition-duration: 1s;
-} 
+}
 
 .border {
   border: 8px solid DodgerBlue ;
