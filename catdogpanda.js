@@ -19,6 +19,7 @@ $('body').mousemove(function(){
 
 //COMMIT 4
 $('img').click(function(){
+    event.stopPropagation(); // Bonus 2
   $(this).toggleClass('border')
 })
 
@@ -26,6 +27,8 @@ $('img').click(function(){
 $('body').click(function(){
   $('body').off()
 })
+
+
 
 // Bonus 2
 
